@@ -22,6 +22,12 @@ fun booleanDemo(result: Boolean) {
     }
 }
 
+fun ifNotDemo(failed: Boolean){
+    ifNot(failed){
+        print("yay, it succeeded")
+    }
+}
+
 fun integerDemo(number: Int) {
     number.times {
         println("Counting: $it")

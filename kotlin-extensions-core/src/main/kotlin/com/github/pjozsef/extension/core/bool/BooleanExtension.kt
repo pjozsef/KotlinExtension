@@ -20,3 +20,9 @@ infix fun Boolean.then(action: ()->Unit): Boolean{
     }
     return this
 }
+
+fun ifNot(bool: Boolean, action: ()->Unit){
+    if(!bool){
+        action()
+    }
+}
