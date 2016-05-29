@@ -3,7 +3,7 @@
 A simple repo containing some extension methods for core Java/Kotlin.
 
 ##Usage
-* Clone this repository `git clone https://github.com/pjozsef/KotlinExtensions.git`
+* Clone this repository `git clone https://github.com/pjozsef/KotlinExtensionsCore.git`
 * Build locally 
   * `./gradlew install` on Linux
   * `./gradlew.bat install` on Windows
