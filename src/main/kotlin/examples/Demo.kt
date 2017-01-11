@@ -1,5 +1,6 @@
 package examples
 
+
 import com.github.pjozsef.extension.core.bool.*
 import com.github.pjozsef.extension.core.integer.*
 import com.github.pjozsef.extension.core.longdate.*

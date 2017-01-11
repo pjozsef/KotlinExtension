@@ -16,14 +16,14 @@ Maven:
 ```xml
 <dependency>
   <groupId>com.github.pjozsef</groupId>
-  <artifactId>kotlin-extensions-core</artifactId>
-  <version>0.0.1</version>
+  <artifactId>kotlin-kotlin-xtras</artifactId>
+  <version>0.1.0</version>
 </dependency>
 ```
 
 Gradle:
 ```groovy
-compile 'com.github.pjozsef:kotlin-extensions-core:0.0.1'
+compile 'com.github.pjozsef:kotlin-xtras:0.1.0'
 ```
 *Dont forget to add mavenLocal() in your build.gradle if you want to use the library in other projects.*
 
