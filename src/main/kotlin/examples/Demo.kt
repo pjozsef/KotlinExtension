@@ -1,4 +1,4 @@
-package com.github.pjozsef.extension.demo
+package examples
 
 import com.github.pjozsef.extension.core.bool.*
 import com.github.pjozsef.extension.core.integer.*
@@ -39,14 +39,18 @@ fun integerDemo(number: Int) {
     }
 }
 
-fun longAsCalendar_Or_AsDateDemo(long: Long) {
+fun longAsCalendaDemo(long: Long) {
     val cal = long.asCalendar()
-    val date = long.asDate()
 
     //instead of
     val cal2 = Calendar.getInstance()
     cal.timeInMillis = long
+}
 
+fun longAsDateDemo(long: Long) {
+    val date = long.asDate()
+
+    //instead of
     val date2 = Date(long)
 }
 
