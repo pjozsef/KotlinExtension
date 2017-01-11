@@ -1,13 +1,13 @@
-# KotlinExtensionsCore
+# KotlinXtras
 
 A simple repo containing some extension methods for core Java/Kotlin.
 
 ##Usage
-* Clone this repository `git clone https://github.com/pjozsef/KotlinExtensionsCore.git`
+* Clone this repository `git clone https://github.com/pjozsef/KotlinXtras.git`
 * Build locally 
   * `./gradlew build` on Linux
   * `./gradlew.bat build` on Windows
-* Install to local maven repository
+* Or install to local maven repository
   * `./gradlew install` on Linux
   * `./gradlew.bat install` on Windows
 * Now you can declare it as a dependency:
@@ -16,7 +16,7 @@ Maven:
 ```xml
 <dependency>
   <groupId>com.github.pjozsef</groupId>
-  <artifactId>kotlin-kotlin-xtras</artifactId>
+  <artifactId>kotlin-xtras</artifactId>
   <version>0.1.0</version>
 </dependency>
 ```
